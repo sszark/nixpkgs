@@ -33,7 +33,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "labwc";
     repo = "labwc";
     rev = "refs/tags/${finalAttrs.version}";
-    hash = "sha256-7MH1mMfyMkaTVwEBJWvI1Lt3M6kosXOwkowuBTZej3a=";
+    hash = "sha256-TXxdjMkzZQoCqkZBqus5eCBEhA/nvxNNXaNHUTGFQDQ=";
   };
 
   outputs = [
