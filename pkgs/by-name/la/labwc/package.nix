@@ -69,7 +69,10 @@ stdenv.mkDerivation (finalAttrs: {
     xwayland
   ];
 
-  mesonFlags = [ (lib.mesonEnable "xwayland" true) ];
+  mesonFlags = [
+    (lib.mesonEnable "xwayland" true)
+    (lib.mesonEnable "Dicon" false)
+  ];
 
   strictDeps = true;
 
